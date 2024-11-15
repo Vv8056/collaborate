@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <style>
+         
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <div class="logo">
+                <h1>DeveloperHVK</h1>
+            </div>
+    
+            <div class="item" id="nav_bar">
+                <a href="#home">Home</a>
+                <!-- <a href="/">Rent Car</a> -->
+                <!-- <a href="">Contact Us</a> -->
+                <a href="https://www.linkedin.com/in/harsh-v-a3b38b26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">About Us</a>
+                <a href="tel:7398882468">Call</a>
+            </div>
+    
+            <div class="op-clo-mn">
+                <div class="menu" onclick="toggleNavbar()" id="open">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- full option -->
+        <div class="menu-bak" id="nav_bak_op">
+            <div class="m-bak-con">
+                <div class=cl-sym>
+                    <img src="https://static.vecteezy.com/system/resources/previews/027/395/710/non_2x/twitter-brand-new-logo-3-d-with-new-x-shaped-graphic-of-the-world-s-most-popular-social-media-free-png.png" alt="" onclick="toggleNavbar()" id="close">
+                </div>
+                <a href="#home">Home</a>
+                <!-- <a href="/">Rent Car</a> -->
+                <a href="#contact-us" onclick="togglecont()">Contact Us</a>
+                <a href="https://www.linkedin.com/in/harsh-v-a3b38b26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">About Us</a>
+                <a href="tel:7398882468">Call</a>
+            </div>
+        </div>
+
+        <!-- <div id="nav_bak_op" style="display: flex;">Navigation Bar</div> -->
+        <!-- home -->
+        <div class="home" id="home">
+            <div class="main-sec">
+                <div class="left">
+                    <p class="txt1">Let's Develop Our <span style="color: #0043ff8c;">Project</span> With Us</p>
+                    <div class="btn">
+                        <button class="btn-join" type="button" id="join">join us</button>
+                    </div>
+                </div>
+    
+                <div class="right">
+                    <img src="https://png.pngtree.com/png-vector/20240706/ourmid/pngtree-boy-using-laptop-png-image_13000350.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- why chose us -->
+         <!--Support-sec  -->
+    <section class="support-sec">
+        <div class="txt">
+            <p class="txt1">Why <span>Choose</span> Us</p>
+            <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, cupiditate!</p> -->
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <i class="fas fa-phone"></i>
+                <div class="txt-sec">
+                    <p class="txt1">24*7 Support</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-flag-checkered"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Free Hosting</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-solid fa-certificate"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Verified License</p>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fa-regular fa-circle-xmark"></i>
+                <div class="txt-sec">
+                    <p class="txt1">Free Cancelation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- our achivement -->
+    <section class="achie-sec">
+        <div class="txt">
+            <p class="txt1">Our <span>Achievement</span></p>
+        </div>
+
+        <div class="main-sec">
+            <div class="box">
+                <p class="txt1">10+</p>
+                <p>Active Member</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">30+</p>
+                <p>New Design</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">3+</p>
+                <p>Project</p>
+            </div>
+
+            <div class="box">
+                <p class="txt1">1k</p>
+                <p>Positive Rating</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact us -->
+    <div class="contact-sec" id="contact-us">
+        <div class="cont-head">
+            <p class="txt1">Contact <span>Us</span></p>
+        </div>
+        <div class="contact-sec-con">
+            <div class="icon-icn" id="callButton">
+                <img src="https://static.vecteezy.com/system/resources/previews/016/416/775/original/phone-call-icon-in-flat-design-style-telephone-signs-illustration-png.png" alt="">
+                <span>Call</span>
+            </div>
+            <div class="icon-icn" id="smsButton">
+                <img src="https://iconape.com/wp-content/png_logo_vector/google-messages.png" alt="">
+                <span>Message</span>
+            </div>
+            <div class="icon-icn" id="instagramButton">
+                <img src="https://tse3.mm.bing.net/th?id=OIP.xiF-dEqvph3ZiYXjVqYqSgHaHa&pid=Api&P=0&h=180" alt="">
+                <span>Instagram</span>
+            </div>
+            <div class="icon-icn" id="linkedinButton">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.QAxeJ33Fyfd28DXfzIQ95QHaHa&pid=Api&P=0&h=180" alt="">
+                <span>Linkdin</span>
+            </div>
+            <div class="icon-icn" id="whatsappButton">
+                <img src="https://cdn.pixabay.com/photo/2015/08/03/13/58/whatsapp-873316_960_720.png" alt="" >
+                <span>whatsapp</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- stsrt sec -->
+    <section class="start-sec">
+        <div class="main-sec">
+            <div class="left">
+                <p class="txt1">Ready To Get Start?</p>
+                <div class="btn">
+                    <button onclick="togglecont()">Contact Us</button>
+                </div>
+            </div>
+
+            <div class="right">
+                <img src="https://png.pngtree.com/png-vector/20240509/ourmid/pngtree-a-boy-working-on-laptop-png-image_12384175.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="foot-sec">
+        <div class="logo">
+            <h1>DeveloperHVK</h1>
+        </div>
+
+        <div class="copy">
+            <p>Copyright &copy; 2024 Design By DeveloperHVK</p>
+        </div>
+
+        <div class="item">
+            <a href="/">Website Terms</a>
+            <a href="/">Contact Us</a>
+            <a href="/">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <!-- Go to Top Button -->
+    <button id="goToTop" class="go-to-top">&#8593;</button>
+
+    <script>
+        function toggleNavbar() {
+              const navbar = document.getElementById("nav_bak_op");
+              const open = document.getElementById("open");
+              const close = document.getElementById("close");
+          
+              if (navbar.style.display === "flex") {
+                navbar.style.display = "none";
+                open.style.display = "grid";
+                close.style.display = "flex";
+              } else {
+                navbar.style.display = "flex";
+                open.style.display = "none";
+                close.style.display = "grid";
+              }
+            }
+
+            const hideNavbar = () => {
+                const navbar = document.getElementById("nav_bak_op");
+                const open = document.getElementById("open");
+                const close = document.getElementById("close");
+                navbar.style.display = "none";
+                open.style.display = "grid";
+                close.style.display = "none";
+            };
+            const showNavbar = () => {
+                const navbar = document.getElementById("nav_bar");
+                const open = document.getElementById("open");
+                const close = document.getElementById("close");
+                navbar.style.display = "flex";
+                open.style.display = "none";
+                close.style.display = "none";
+            };
+
+            // Add CSS media query
+            const mediaQuery = window.matchMedia('(min-width: 768px)');
+            function handleMediaQuery(mediaQuery) {
+                if (mediaQuery.matches) {
+                // Apply styles for screens with max-width: 768px
+                // For example:
+                document.getElementById('nav_bar').style.backgroundColor = '#fafaff';
+                document.getElementById('nav_bar').style.display = 'flex';
+                document.getElementById("open").style.display = "none";
+                document.getElementById("close").style.display = "none";
+            } else {
+                // Apply styles for screens wider than 768px
+                // For example:
+                document.getElementById('nav_bar').style.backgroundColor = '#fafaff';
+                document.getElementById('nav_bar').style.display = 'none';
+                document.getElementById("open").style.display = "grid";
+            }
+        }
+        handleMediaQuery(mediaQuery); // Call the function at least once to apply styles initially
+        mediaQuery.addListener(handleMediaQuery); // Add listener to handle changes in media query
+        
+        function togglecont(){
+            const cont = document.getElementById("contact-us");
+
+            if(cont.style.display === "none") {
+                cont.style.display = "flex";
+            } else {
+                cont.style.display = "none";
+            }
+        }
+
+        const navElement = document.getElementById("nav_bak_op");
+        const showNavButton = document.getElementById("open");
+        const goToTopButton = document.getElementById("goToTop");
+        const scrollThreshold = 5;
+    
+        window.onscroll = function() {
+            // Check the scroll position for navigation bar and Go to Top button
+            if (window.scrollY > scrollThreshold) {
+                // Hide the navigation bar when scrolled down past the threshold
+                navElement.style.display = "none";
+                // Show the button to allow the user to display the navigation bar again
+                showNavButton.style.display = "none";
+            } else {
+                // Optionally, you can keep the button hidden when at the top
+                showNavButton.style.display = "grid"; // Hide the button when at the top
+            }
+    
+            // Show or hide the "Go to Top" button based on the scroll position
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                goToTopButton.style.display = "block"; // Show the button when scrolling down
+            } else {
+                goToTopButton.style.display = "none"; // Hide the button when at the top
+            }
+        };
+    
+        showNavButton.onclick = function() {
+            // Show the navigation bar when the button is clicked
+            navElement.style.display = "flex";
+            // Hide the button after showing the navigation
+            showNavButton.style.display = "none";
+        };
+    
+        // Scroll to the top when the "Go to Top" button is clicked
+        goToTopButton.onclick = function() {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        };
+
+    // Improved JavaScript to handle join link
+    document.getElementById("join").addEventListener("click", () => {
+        const phoneNumber = "917398882468"; // Replace with your number
+        const message = "*Hii*! I'm interested for collaboration lets me know!"; // Replace with your message
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        
+        // Open the WhatsApp link in a new tab
+        window.open(url, "_blank");
+    });
+
+    // JavaScript to handle direct phone call link
+    document.getElementById("callButton").addEventListener("click", () => {
+        const phoneNumber = "7398882468"; // Replace with your number
+        const url = `tel:${phoneNumber}`; // Direct link for calling
+        
+        // Open the call link
+        window.location.href = url, "_blank";
+    });
+
+    // sms
+    // JavaScript to handle direct SMS link
+    document.getElementById("smsButton").addEventListener("click", () => {
+        const phoneNumber = "7398882468"; // Replace with your number
+        const message = "Hi! I’d love to explore a collaboration opportunity with you. Let’s connect and discuss how we can work together!"; // Replace with your message
+        const url = `sms:${phoneNumber}?body=${encodeURIComponent(message)}`; // Direct link for SMS
+        
+        // Open the SMS link
+        window.location.href = url, "_blank";
+    });
+
+    // JavaScript to handle opening an Instagram profile
+    document.getElementById("instagramButton").addEventListener("click", () => {
+        const username = "techblack804"; // Replace with the Instagram username
+        const url = `https://www.instagram.com/${username}/`; // Instagram profile URL
+        
+        // Open the Instagram profile link in a new tab
+        window.open(url, "_blank");
+    });
+
+        // JavaScript to handle opening a LinkedIn profile
+        document.getElementById("linkedinButton").addEventListener("click", () => {
+        const profileUrl = "https://www.linkedin.com/in/harsh-v-a3b38b26a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"; // Replace with the LinkedIn profile URL
+        
+        // Open the LinkedIn profile link in a new tab
+        window.open(profileUrl, "_blank");
+    });
+
+
+    // Improved JavaScript to handle WhatsApp link
+    document.getElementById("whatsappButton").addEventListener("click", () => {
+        const phoneNumber = "917398882468"; // Replace with your number
+        const message = "Hi! I’d love to explore a collaboration opportunity with you. Let’s connect and discuss how we can work together!"; // Replace with your message
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        
+        // Open the WhatsApp link in a new tab
+        window.open(url, "_blank");
+    });
+</script>
+
+    </body>
+</html>
